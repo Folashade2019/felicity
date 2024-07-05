@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+        nav{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            justify-items:center;
+            align-items: center;
+            background-color: white;
+        }
+        .container1{
+            width: 100%;
+            height: 50px;
+            margin: 0 auto;
+            background-color: rgb(177, 12, 12);
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            }
+            span {
+        color: white;
+      }
+         .container1 ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+         .container1 ul li{
+            list-style: none;
+            padding-right: 70px;
+        }
+
+        .container1 ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        .icon{
+            width: 30px;
+        }
+        .icon1{
+            width: 30px;
+        }
+        .icon2{
+            width: 30px;
+        }
+        section{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0;
+        } 
+        .container{
+            width: 80%;
+            height: 1000px;
+            background-color: transparent;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 400px 300px 300px 300px;
+            gap: 20px;
+        }
+    
+        .box{
+            width: 100%;
+            height: 100%;
+            background-color:transparent;
+        }
+        .spread {
+        grid-column: 1 / 5;
+        }
+        .rem{
+            width: 50%;
+            height: 400px;
+            background-color: palegoldenrod;
+        }
+        .rem1{
+            width: 400px;
+            height: 400px;
+            margin-top: -400px;
+            margin-left: 500px;
+        }
+        .rem2{
+            font-size: 50px;     
+        }
+        .rem h3{
+            margin-top: 20px;
+        }
+        .rem p{
+            margin-top: 30px;
+            color: blue;
+        }
+        .rem button{
+            width: 200px;
+            height: 80px;
+            background-color: brown;
+            color: white;
+            border: none;
+            
+        }
+       
+        .bee{
+            width: 50px;
+            margin-top: 150px;
+        }
+        .bee1{
+            width: 50px;
+            margin-left: 30px;
+        }
+        .bee2{
+            width: 50px;
+            margin-left: 30px;
+        }
+        
+        .pix{
+            width: 100%;
+            height: 90%;
+            object-fit: cover;
+        }
+        .content{
+            width: 100%;
+            height: 300px;
+            background-color: transparent;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .box p {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: -30%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container1">
+          <h1>Felicity<span>Elegance</span></h1>
+          <ul>
+            <li><a href="felicity store.htm">SHOP</a></li>
+            <li><a href="#">PROMOTION</a></li>
+            <li><a href="Nigeria.htm">NIGERIAN FOOD STUFF</a></li>
+            <li><a href="felicity contact.htm">CONTACT</a></li>
+            <img src="Turkeys wear/search-plus-svgrepo-com.svg" alt="" class="icon">
+            <img src="Turkeys wear/human-stomach-digestion-diagram-2-svgrepo-com.svg" alt="" class="icon1">
+            <img src="Turkeys wear/shopping-cart-svgrepo-com.svg" alt="" class="icon2">
+        </ul>
+        </div>
+      </nav>  
+    <section>
+   <div class="container">
+   <div class="box spread">
+    <div class="rem">
+    <h1 class="rem2">GET up to 20% off <br> New Arrivals</h1>
+    <h3>SPRING/SUMMER COLLECTION 2024</h3>
+    <p>Turkeys, U.K, China wears for both kids and Adult is available.</p>
+    <button>CLICK ON THE SOCIAL PLATFORM FOR MORE PICTURES AND PRICES</button>
+    
+    <a href="https://www.facebook.com/profile.php?id=100063496692515&mibextid=ZbWKwL" target="_blank"><img src="/Facebook_icon.jpg" alt="" class="bee"></a>
+    <a href="https://wa.me/message/CG3LTWBIDOHYG1" target="_blank"><img src="Images/whatapp.jpg" alt="" class="bee1"></a>
+    <a href="https://www.instagram.com/felicityokoye1978?igsh=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"><img src="Images/instagram.jpg" alt="" class="bee2"></a>g
+    </div>
+    <div class="rem1">
+    <img src="Turkeys wear/IMG-20201008-WA0096.jpg" alt="" class="pix">
+    </div>
+   </div>
+   <div class="box">
+    <div class="content">
+    <img src="Turkeys wear/25000-3.jpg" alt="" class="pix">
+    </div>
+    <p>ACCESSORIES</p>
+   </div>
+   <div class="box">
+    <div class="content">
+    <img src="Turkeys wear/bag.jpg" alt="" class="pix">
+    </div>
+    <p>TURKISH BAG'S</p>
+   </div>
+   <div class="box">
+    <div class="content">
+    <img src="Turkeys wear/shoe.jpg" alt="" class="pix">
+    </div>
+    <p>WOMEN SHOE</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/woman shoe.jpg" alt="" class="pix">
+    </div>
+    <p>WOMEN SHOE</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/chil.jpg" alt="" class="pix">
+    </div>
+    <p>CHILDREN GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/chil1.jpg" alt="" class="pix">
+    </div>
+    <p>CHILDREN GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/childrean.jpg" alt="" class="pix">
+    </div>
+    <p>CHILDREN WEAR</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/childrean.webp" alt="" class="pix">
+    </div>
+    <p>CHILDREN GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="Turkeys wear/gown.jpg" alt="" class="pix">
+    </div>
+    <p>WOMEN'S GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="/Turkeys wear/TURKISH-LADIES-FASHION-CLASSIC-DRESS-GOWN-2.jpeg" alt="" class="pix">
+    </div>
+    <p>WOMEN'S GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="/Turkeys wear/ladies wear.jpg" alt="" class="pix">
+    </div>
+    <p>WOMEN'S GOWN</p>
+   </div><div class="box">
+    <div class="content">
+    <img src="/Turkeys wear/woman wear.jpg" alt="" class="pix">
+    </div>
+    <p>WOMEN'S GOWN</p>
+   </div>
+   
+   </div>
+    </section>
+</body>
+</html>
+
